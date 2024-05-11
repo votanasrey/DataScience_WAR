@@ -12,7 +12,7 @@ A automated Python script to load the data from different sources such as EXCEL,
 python -m venv .venv
 ```
 
-2. Activate the virtual environment 
+2. Activate the virtual environment (Window OS)
 
 ```shell
 ./venv/Script/activate
@@ -25,13 +25,14 @@ pip install -r requirements.txt
 ```
 
 4. Run the scripts
-4.1 The data_load.py: this script will load all the database from the data sources from ./data folder and print the results in your terminal output. 
+
+The data_load.py: this script will load all the database from the data sources from ./data folder and print the results in your terminal output. 
 
 ```shell
 python data_loader.py
 ```
 
-4.2 The moview_reviewer.py: this script will only load ./data/IMDB_Movies_2021.db based on the assigments's requirements, there are: 
+The moview_reviewer.py: this script will only load ./data/IMDB_Movies_2021.db based on the assigments's requirements, there are: 
 - TOP 3 HIGH MOVIES RATING
 - ALL MOVIE TITLE EXISTS STORY WORD WITHIN 
 - ALL MOVIES WHICH HAS THE SAME REVIEWERS 
